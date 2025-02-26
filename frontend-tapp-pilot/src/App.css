@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+}
+
+.chart-container {
+    position: relative;
+    width: 872px;
+    height: 1200px;
+    height: fit-content;
+}
+
+.chart-container .chart {
+    z-index: 2;
+    position: absolute;
+    left: 134px;
+    bottom: -11px;
+}
+
+.panel {
+    padding: 16px;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 20px;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.panel .slider-container {
+    width: 500px;
+    height: 50px;
+}
+
+.panel .slider-container input {
+    width: 100%;
+}
+
+.panel .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filters-container .filter-item {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.filters-container .filter-item .walk {
+    color: #fe218b;
+}
+
+.filters-container .filter-item .run {
+    color: #fed700;
+}
+
+.filters-container .filter-item .cycle {
+    color: #21b0fe;
+}
+
+/* .heatmap {
+    position: absolute;
+    left: 38px;
+    top: 260px;
+    width: 730px;
+    height: 770px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    background-image: url('../public/heatmap.png');
+} */

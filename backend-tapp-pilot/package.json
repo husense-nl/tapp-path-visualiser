@@ -1,0 +1,17 @@
+{
+  "name": "backend-tapp-pilot",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "bash sort.bash && node --max-old-space-size=4096 script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/cogniteq-web/backend-tapp-pilot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
